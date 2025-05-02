@@ -12,7 +12,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
-/datum/design/health_hud_night
+/* /datum/design/health_hud_night
 	name = "Night Vision Health Scanner HUD"
 	desc = "An advanced medical head-up display that allows doctors to find patients in complete darkness."
 	id = "health_hud_night"
@@ -27,7 +27,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_MEDICAL
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL */
 
 /datum/design/security_hud
 	name = "Security HUD"
@@ -41,7 +41,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-/datum/design/security_hud_night
+/* /datum/design/security_hud_night
 	name = "Night Vision Security HUD"
 	desc = "A heads-up display which provides id data and vision in complete darkness."
 	id = "security_hud_night"
@@ -56,7 +56,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SECURITY
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY */
 
 /datum/design/diagnostic_hud
 	name = "Diagnostic HUD"
@@ -70,7 +70,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
-/datum/design/diagnostic_hud_night
+/* /datum/design/diagnostic_hud_night
 	name = "Night Vision Diagnostic HUD"
 	desc = "Upgraded version of the diagnostic HUD designed to function during a power failure."
 	id = "diagnostic_hud_night"
@@ -85,7 +85,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */
 
 // Misc
 
@@ -236,7 +236,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
-/datum/design/nvgmesons
+/* /datum/design/nvgmesons
 	name = "Night Vision Optical Meson Scanners"
 	desc = "Prototype meson scanners fitted with an extra sensor which amplifies the visible light spectrum and overlays it to the UHD display."
 	id = "nvgmesons"
@@ -253,7 +253,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO
 
-/datum/design/night_vision_goggles
+ /datum/design/night_vision_goggles
 	name = "Night Vision Goggles"
 	desc = "Goggles that let you see through darkness unhindered."
 	id = "night_visision_goggles"
@@ -268,7 +268,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_MISC
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SECURITY
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SECURITY */
 
 /datum/design/magboots
 	name = "Magnetic Boots"
@@ -313,7 +313,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_MEDICAL
 
-/datum/design/nv_sci_goggles
+/* /datum/design/nv_sci_goggles
 	name = "Night Vision Science Goggles"
 	desc = "Goggles that lets the user see in the dark and recognize chemical compounds at a glance."
 	id = "nv_scigoggles"
@@ -328,7 +328,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_CHEMISTRY
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_MEDICAL
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_MEDICAL */
 
 /datum/design/roastingstick
 	name = "Advanced Roasting Stick"
@@ -382,7 +382,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
-/datum/design/anomaly_neutralizer
+/* /datum/design/anomaly_neutralizer
 	name = "Anomaly Neutralizer"
 	desc = "An advanced tool capable of instantly neutralizing anomalies, designed to capture the fleeting aberrations created by the engine."
 	id = "anomaly_neutralizer"
@@ -392,7 +392,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */
 
 /datum/design/donksoft_refill
 	name = "Donksoft Toy Vendor Refill"
@@ -707,7 +707,7 @@
 
 // Armour
 
-/datum/design/reactive_armour
+/* /datum/design/reactive_armour
 	name = "Reactive Armor Shell"
 	desc = "An experimental suit of armour capable of utilizing an implanted anomaly core to protect the user."
 	id = "reactive_armour"
@@ -723,7 +723,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */
 
 /datum/design/knight_armour
 	name = "Knight Armour"
@@ -1118,7 +1118,7 @@
 
 // Experimental designs
 
-/datum/design/polymorph_belt
+/* /datum/design/polymorph_belt
 	name = "Polymorphic Field Inverter"
 	id = "polymorph_belt"
 	desc = "This device can scan and store DNA from other life forms, and use it to transform its wearer. It requires a Bioscrambler Anomaly Core in order to function."
@@ -1150,4 +1150,4 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */

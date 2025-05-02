@@ -84,7 +84,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-/datum/design/c38_mag
+/* /datum/design/c38_mag
 	name = "Magazine (.38) (Lethal)"
 	desc = "Designed to tactically reload a NT BR-38 Battle Rifle. Less powerful by design, guns chambered in .38 caliber rounds are still quite popular for use by police forces, \
 		private security firms and organizations unable to access energy-based nonlethal weaponry. The lower (relative) penetrative power is useful for preventing potential hull damage \
@@ -179,7 +179,7 @@
 	category = list(
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY */
 
 /datum/design/rubbershot/sec
 	id = "sec_rshot"
@@ -300,7 +300,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 	autolathe_exportable = FALSE
 
-/datum/design/nuclear_gun
+/* /datum/design/nuclear_gun
 	name = "Advanced Energy Gun Part Kit (Lethal/Nonlethal)"
 	desc = "The kit for an energy gun with an experimental miniaturized reactor."
 	id = "nuclear_gun"
@@ -311,7 +311,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_KITS
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
-	autolathe_exportable = FALSE
+	autolathe_exportable = FALSE */
 
 /datum/design/tele_shield
 	name = "Telescopic Riot Shield"
@@ -339,7 +339,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 	autolathe_exportable = FALSE
 
-/datum/design/beamrifle
+/* /datum/design/beamrifle
 	name = "Event Horizon Anti-Existential Beam Rifle Part Kit (DOOMSDAY DEVICE)"
 	desc = "The kit that produces a weapon made to end your foes on an existential level. Why the fuck can you make this?"
 	id = "beamrifle"
@@ -350,7 +350,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_KITS
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
-	autolathe_exportable = FALSE
+	autolathe_exportable = FALSE */
 
 /datum/design/rapidsyringe
 	name = "Rapid Syringe Gun"
@@ -364,7 +364,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL //uwu
 
-/datum/design/temp_gun
+/* /datum/design/temp_gun
 	name = "Temperature Gun Part Kit (Less Lethal/Very Lethal (Lizardpeople))"
 	desc = "A gun that shoots temperature bullet energythings to change temperature."//Change it if you want
 	id = "temp_gun"
@@ -375,7 +375,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_KITS
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
-	autolathe_exportable = FALSE
+	autolathe_exportable = FALSE */
 
 /datum/design/flora_gun
 	name = "Floral Somatoray"
@@ -437,7 +437,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
-/datum/design/xray
+/* /datum/design/xray
 	name = "X-ray Laser Gun Part Kit (Lethal)"
 	desc = "Not quite as menacing as it sounds"
 	id = "xray_laser"
@@ -473,7 +473,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */
 
 /datum/design/stunshell
 	name = "Stun Shell"
@@ -501,7 +501,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-/datum/design/techshell
+/* /datum/design/techshell
 	name = "Unloaded Technological Shotshell"
 	desc = "A high-tech shotgun shell which can be crafted into more advanced shells to produce unique effects. \
 		Does nothing on its own."
@@ -512,7 +512,7 @@
 	category = list(
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY */
 
 /datum/design/suppressor
 	name = "Suppressor"
@@ -526,7 +526,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-/datum/design/gravitygun
+/* /datum/design/gravitygun
 	name = "One-point Gravitational Manipulator"
 	desc = "A multi-mode device that blasts one-point bluespace-gravitational bolts that locally distort gravity. Requires a gravitational anomaly core to function."
 	id = "gravitygun"
@@ -536,7 +536,7 @@
 	category = list(
 		RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE */
 
 /datum/design/largecrossbow
 	name = "Energy Crossbow Part Kit (Less Lethal/Contraband)"
@@ -572,7 +572,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-/datum/design/photon_cannon
+/* /datum/design/photon_cannon
 	name = "Photon Cannon Part Kit (Nonlethal)"
 	desc = "A kit to reverse-engineer a photon cannon, a weapon that generates a shortly-lived miniature sun. Technically brightens up the room, effectively blinds everyone in it. Requires a flux anomaly core to finish."
 	id = "photon_cannon"
@@ -582,4 +582,4 @@
 	category = list(
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_KITS
 	)
-	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY */

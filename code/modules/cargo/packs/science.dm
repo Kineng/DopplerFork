@@ -3,7 +3,7 @@
 	access_view = ACCESS_RESEARCH
 	crate_type = /obj/structure/closet/crate/science
 
-/datum/supply_pack/science/plasma
+/* /datum/supply_pack/science/plasma
 	name = "Plasma Assembly Crate"
 	desc = "Everything you need to burn something to the ground, this contains three \
 		plasma assembly sets. Each set contains a plasma tank, igniter, proximity sensor, \
@@ -107,7 +107,7 @@
 	access_view = ACCESS_ORDNANCE
 	contains = list(/obj/item/raw_anomaly_core/dimensional)
 	crate_name = "raw dimensional anomaly"
-	crate_type = /obj/structure/closet/crate/secure/science
+	crate_type = /obj/structure/closet/crate/secure/science */
 
 
 /datum/supply_pack/science/robotics

@@ -3,7 +3,7 @@
 	access = ACCESS_SECURITY
 	crate_type = /obj/structure/closet/crate/secure/gear
 
-/datum/supply_pack/security/ammo
+/* /datum/supply_pack/security/ammo
 	name = "Ammo Crate"
 	desc = "Contains three boxes of beanbag shotgun shells, three boxes \
 		of rubbershot shotgun shells and one of each special .38 speedloaders."
@@ -15,7 +15,7 @@
 					/obj/item/ammo_box/c38/hotshot,
 					/obj/item/ammo_box/c38/iceblox,
 				)
-	crate_name = "ammo crate"
+	crate_name = "ammo crate" */
 
 /datum/supply_pack/security/armor
 	name = "Armor Crate"
@@ -256,7 +256,7 @@
 	crate_name = "disabler smg crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
 
-/datum/supply_pack/security/armory/battle_rifle
+/* /datum/supply_pack/security/armory/battle_rifle
 	name = "NT BR-38 Crate"
 	desc = "An experimental energy-based ballistic battle rifle. Only available to \
 		Nanotrasen stations for security purposes. DO NOT RESELL TO OUTSIDE COMPANIES. \
@@ -278,7 +278,7 @@
 		/obj/item/ammo_box/magazine/m38/hotshot = 2,
 		/obj/item/ammo_box/magazine/m38/iceblox =2,
 	)
-	crate_name = ".38 magazine crate"
+	crate_name = ".38 magazine crate" */
 
 /datum/supply_pack/security/armory/exileimp
 	name = "Exile Implants Crate"

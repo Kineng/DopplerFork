@@ -49,11 +49,11 @@ endmap
 
 map nebulastation
 	minplayers 35
-	votable
+	disabled
 endmap
 
 map wawastation
-	votable
+	disabled
 	minplayers 40
 endmap
 
